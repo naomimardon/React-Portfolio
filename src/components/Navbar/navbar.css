@@ -1,8 +1,13 @@
 .css-hip9hq-MuiPaper-root-MuiAppBar-root {
     background-color: aquamarine !important;
+    z-index: 1000;
 }
 
 a:-webkit-any-link {
-    color: #EF9A9A;
+    color: rgba(239, 154, 154);
     text-decoration: none;
+}
+
+.navbar {
+    box-shadow: 0px 0px 10px 0px aquamarine;
 }

@@ -1,9 +1,13 @@
 import React from "react";
+import Hero from "../components/Hero/hero";
 
-function Contact() {
+const Contact = () => {
     return (
         <div>
-            Contact
+            <Hero>
+                <h1>Get in Touch</h1>
+                <h2>Please find my contact details below</h2>
+            </Hero>
         </div>
     );
 };

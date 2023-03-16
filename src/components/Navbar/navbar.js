@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import './navbar.css';
 
-function Navbar() {
+const Navbar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
 
     const handleOpenNavMenu = (event) => {
@@ -24,7 +24,7 @@ function Navbar() {
     };
 
     return (
-        <AppBar position="static">
+        <AppBar className='navbar' position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Typography

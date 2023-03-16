@@ -1,9 +1,14 @@
 import React from "react";
+import Hero from "../components/Hero/hero";
 
-function About() {
+const About = () => {
+
     return (
         <div>
-            About
+            <Hero>
+                <h1>Naomi Mardon</h1>
+                <h2>Front-End Web Development</h2>
+            </Hero>
         </div>
     );
 };
