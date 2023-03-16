@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.css";
 
-function Hero(props) {
+const Hero = (props) => {
   return (
     <div className="hero text-end">
       {props.children}
