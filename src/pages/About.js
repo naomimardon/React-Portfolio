@@ -10,7 +10,7 @@ const About = () => {
                 <h1>Naomi Mardon</h1>
                 <h2>Front-End Web Development</h2>
             </Hero>
-            <Info></Info>
+            <Info />
         </div>
     );
 };

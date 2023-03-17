@@ -4,3 +4,12 @@
   box-sizing: border-box;
   font-family: "Roboto";
 }
+
+a:-webkit-any-link {
+  color: rgb(239, 154, 154);
+  text-decoration: none;
+}
+
+a:-webkit-any-link:hover {
+  color: rgb(239, 154, 154);
+}
