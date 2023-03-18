@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -42,9 +42,9 @@ const Navbar = () => {
                             textDecoration: 'none',
                         }}
                     >
-                        <Link to="/">
+                        <NavLink to="/">
                             NM
-                        </Link>
+                        </NavLink>
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -124,9 +124,9 @@ const Navbar = () => {
                             textDecoration: 'none',
                         }}
                     >
-                        <Link to="/">
+                        <NavLink to="/">
                             NM
-                        </Link>
+                        </NavLink>
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <Button

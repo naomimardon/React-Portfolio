@@ -19,16 +19,22 @@
 
 .projectImage {
     width: 100%;
-    height: auto;
+    height: 200px;
     border-bottom: 1px dotted gray;
 }
 
 .cardBox {
     padding: 10px 30px;
     background-color: aquamarine;
+    height: 200px;
 }
 
 .cardBox h3 {
     color: gray;
+}
+
+.cardBox p {
+    color: #273746;
+    font-size: 1.2rem;
 }
 

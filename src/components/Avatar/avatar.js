@@ -1,6 +1,6 @@
 import React from "react";
 import Avatar from '@mui/material/Avatar';
-import image from "../../utils/images/profilePic.jpeg"
+import image from "../../utils/profilePic.jpeg"
 
 const ProfilePic = () => {
     return (

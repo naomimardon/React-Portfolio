@@ -14,9 +14,10 @@ const ProjectGrid = (props) => {
                         return (
                             <ProjectCard
                                 key={project.key}
-                                image={project.image}
                                 title={project.title}
+                                image={project.image}
                                 intro={project.intro}
+                                navLink={project.navLink}
                             />
                         )
                     })
