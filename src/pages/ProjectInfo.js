@@ -45,7 +45,7 @@ const ProjectInfo = (props) => {
             </Box>
 
         </Container>
-    )
+    );
 };
 
 export default ProjectInfo;

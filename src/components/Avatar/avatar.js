@@ -8,7 +8,7 @@ const ProfilePic = () => {
         src={ image }
         sx={{ width: 180, height: 180 }}
         />
-    )
-}
+    );
+};
 
-export default ProfilePic
+export default ProfilePic;

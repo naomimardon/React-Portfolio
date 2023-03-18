@@ -34,6 +34,6 @@ const Info = () => {
       </Box>
     </Container>
   );
-}
+};
 
 export default Info;

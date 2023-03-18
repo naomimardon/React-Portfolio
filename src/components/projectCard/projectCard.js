@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
                 </Link>
             </Paper>
         </Grid>
-    )
-}
+    );
+};
 
 export default ProjectCard;

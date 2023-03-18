@@ -10,6 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import NaomiMardonCV from '../../utils/NaomiMardonCV.pdf'
 import './navbar.css';
 
 const Navbar = () => {
@@ -106,6 +107,17 @@ const Navbar = () => {
                                     </NavLink>
                                 </Typography>
                             </MenuItem>
+                            <MenuItem onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">
+                                    <NavLink
+                                        to={NaomiMardonCV}
+                                        target="_blank"
+                                        end
+                                    >
+                                        Resumé
+                                    </NavLink>
+                                </Typography>
+                            </MenuItem>
                         </Menu>
                     </Box>
                     <Typography
@@ -159,10 +171,22 @@ const Navbar = () => {
                                 Get In Touch
                             </NavLink>
                         </Button>
+                        <Button
+                            sx={{ my: 2, color: 'white', display: 'block' }}
+                        >
+                            <NavLink
+                                to={NaomiMardonCV}
+                                target="_blank"
+                                end
+                            >
+                                Resumé
+                            </NavLink>
+                        </Button>
                     </Box>
                 </Toolbar>
             </Container>
         </AppBar>
     );
-}
+};
+
 export default Navbar;

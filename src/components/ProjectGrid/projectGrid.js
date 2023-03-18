@@ -25,7 +25,7 @@ const ProjectGrid = (props) => {
                 </Grid>
             </Box>
         </Container>
-    )
-}
+    );
+};
 
 export default ProjectGrid;
