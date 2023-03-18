@@ -1,7 +1,6 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 
 const style = {
@@ -24,7 +23,7 @@ const SubmitModal = () => {
 
     return (
         <div>
-            <Button onClick={handleOpen}>Open modal</Button>
+            <Button variant="contained" onClick={handleOpen}>Submit</Button>
             <Modal
                 open={open}
                 onClose={handleClose}
@@ -32,12 +31,12 @@ const SubmitModal = () => {
                 aria-describedby="modal-modal-description"
             >
                 <Box sx={style}>
-                    <Typography id="modal-modal-title" variant="h6" component="h2">
-                        Text in a modal
-                    </Typography>
-                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-                    </Typography>
+                    <h5 id="modal-modal-title">
+                        Thank you for your message
+                    </h5>
+                    <p id="modal-modal-description">
+                        I'll be in touch soon!
+                    </p>
                 </Box>
             </Modal>
         </div>
