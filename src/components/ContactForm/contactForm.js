@@ -1,6 +1,7 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
 import TextField from '@mui/material/TextField';
+import SubmitModal from '../Modal/modal'
 import './contactForm.css';
 
 
@@ -27,6 +28,7 @@ const ContactForm = () => {
                 multiline
                 rows={4}
             />
+            <SubmitModal />
         </Grid>
     )
 }
