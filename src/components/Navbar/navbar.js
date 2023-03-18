@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import NaomiMardonCV from '../../utils/NaomiMardonCV.pdf'
+import NaomiMardonCV from '../../utils/NaomiMardonCV.pdf';
 import './navbar.css';
 
 const Navbar = () => {
@@ -54,14 +54,14 @@ const Navbar = () => {
                             aria-label="account of current user"
                             aria-controls="menu-appbar"
                             aria-haspopup="true"
-                            onClick={handleOpenNavMenu}
+                            onClick={ handleOpenNavMenu }
                             color="inherit"
                         >
                             <MenuIcon />
                         </IconButton>
                         <Menu
                             id="menu-appbar"
-                            anchorEl={anchorElNav}
+                            anchorEl={ anchorElNav }
                             anchorOrigin={{
                                 vertical: 'bottom',
                                 horizontal: 'left',
@@ -71,13 +71,13 @@ const Navbar = () => {
                                 vertical: 'top',
                                 horizontal: 'left',
                             }}
-                            open={Boolean(anchorElNav)}
+                            open={ Boolean(anchorElNav) }
                             onClose={handleCloseNavMenu}
                             sx={{
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-                            <MenuItem onClick={handleCloseNavMenu}>
+                            <MenuItem onClick={ handleCloseNavMenu }>
                                 <Typography textAlign="center">
                                     <NavLink
                                         to="/about"
@@ -87,7 +87,7 @@ const Navbar = () => {
                                     </NavLink>
                                 </Typography>
                             </MenuItem>
-                            <MenuItem onClick={handleCloseNavMenu}>
+                            <MenuItem onClick={ handleCloseNavMenu }>
                                 <Typography textAlign="center">
                                     <NavLink
                                         to="/projects"
@@ -97,7 +97,7 @@ const Navbar = () => {
                                     </NavLink>
                                 </Typography>
                             </MenuItem>
-                            <MenuItem onClick={handleCloseNavMenu}>
+                            <MenuItem onClick={ handleCloseNavMenu }>
                                 <Typography textAlign="center">
                                     <NavLink
                                         to="/contact"
@@ -107,14 +107,14 @@ const Navbar = () => {
                                     </NavLink>
                                 </Typography>
                             </MenuItem>
-                            <MenuItem onClick={handleCloseNavMenu}>
+                            <MenuItem onClick={ handleCloseNavMenu }>
                                 <Typography textAlign="center">
                                     <NavLink
-                                        to={NaomiMardonCV}
+                                        to={ NaomiMardonCV }
                                         target="_blank"
                                         end
                                     >
-                                        Resumé
+                                        Resume
                                     </NavLink>
                                 </Typography>
                             </MenuItem>
@@ -175,11 +175,11 @@ const Navbar = () => {
                             sx={{ my: 2, color: 'white', display: 'block' }}
                         >
                             <NavLink
-                                to={NaomiMardonCV}
+                                to={ NaomiMardonCV }
                                 target="_blank"
                                 end
                             >
-                                Resumé
+                                Resume
                             </NavLink>
                         </Button>
                     </Box>
