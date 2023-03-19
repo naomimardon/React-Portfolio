@@ -2,6 +2,7 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Modal from '@mui/material/Modal';
+import './modal.css'
 
 const style = {
     position: 'absolute',
@@ -23,7 +24,7 @@ const SubmitModal = () => {
 
     return (
         <div>
-            <Button variant="contained" onClick={handleOpen}>Submit</Button>
+            <Button className="submitButton" variant="contained" onClick={handleOpen}>Submit</Button>
             <Modal
                 open={open}
                 onClose={handleClose}

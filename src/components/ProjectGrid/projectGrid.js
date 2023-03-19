@@ -5,7 +5,7 @@ import Grid from '@mui/material/Grid';
 import ProjectCard from "../projectCard/projectCard";
 import Projects from "../../utils/projectData.json";
 
-const ProjectGrid = (props) => {
+const ProjectGrid = () => {
     return (
         <Container>
             <Box sx={{ flexGrow: 1, paddingTop: "50px"}}>
