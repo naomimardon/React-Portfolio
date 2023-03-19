@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.91af4dd9.css",
+    "main.js": "/React-Portfolio/static/js/main.d4334f97.js",
+    "static/media/profilePic.jpeg": "/React-Portfolio/static/media/profilePic.12be39126fee4c7a5465.jpeg",
+    "static/media/NaomiMardonCV.pdf": "/React-Portfolio/static/media/NaomiMardonCV.fcb2b7c911ca127936e7.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.91af4dd9.css.map": "/React-Portfolio/static/css/main.91af4dd9.css.map",
+    "main.d4334f97.js.map": "/React-Portfolio/static/js/main.d4334f97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91af4dd9.css",
+    "static/js/main.d4334f97.js"
+  ]
+}
