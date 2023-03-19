@@ -114,7 +114,7 @@ const Navbar = () => {
                                         target="_blank"
                                         end
                                     >
-                                        Resume
+                                        Resumé
                                     </NavLink>
                                 </Typography>
                             </MenuItem>
@@ -179,7 +179,7 @@ const Navbar = () => {
                                 target="_blank"
                                 end
                             >
-                                Resume
+                                Resumé
                             </NavLink>
                         </Button>
                     </Box>

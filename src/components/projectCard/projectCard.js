@@ -9,11 +9,6 @@ const ProjectCard = (props) => {
     return (
         <Grid item xs={4} sm={4} md={4}>
             <Paper elevation={3} className="projectCard">
-                <Link
-                className="projectLink"
-                to={`/projects${props.navLink}`}
-                end
-                >
                 <img
                     src={process.env.PUBLIC_URL + props.image}
                     alt={props.title}
@@ -22,8 +17,27 @@ const ProjectCard = (props) => {
                 <Box className="cardBox" sx={{ flexGrow: 1 }}>
                     <h3>{props.title}</h3>
                     <p>{props.intro}</p>
+                    <p>
+                        <Link
+                            className="projectLink"
+                            to={props.deployedLink}
+                            target="_blank"
+                            end
+                        >
+                            View the deployed application
+                        </Link>
+                    </p>
+                    <p>
+                        <Link
+                            className="projectLink"
+                            to={props.gitHubLink}
+                            target="_blank"
+                            end
+                        >
+                            View the Github Repository
+                        </Link>
+                    </p>
                 </Box>
-                </Link>
             </Paper>
         </Grid>
     );

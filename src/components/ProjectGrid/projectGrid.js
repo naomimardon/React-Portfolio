@@ -17,7 +17,8 @@ const ProjectGrid = () => {
                                 title={project.title}
                                 image={project.image}
                                 intro={project.intro}
-                                navLink={project.navLink}
+                                deployedLink={project.deployedLink}
+                                gitHubLink={project.gitHubLink}
                             />
                         )
                     })
